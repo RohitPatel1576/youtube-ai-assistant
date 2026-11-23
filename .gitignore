@@ -1,0 +1,24 @@
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Virtual Environment
+venv/
+.venv/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Streamlit Secrets
+.streamlit/secrets.toml
+
+# Chroma Database (local generated data)
+chroma_db/
+
+# System Files
+.DS_Store
+Thumbs.db
