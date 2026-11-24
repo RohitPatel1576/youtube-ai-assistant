@@ -297,13 +297,10 @@ with st.sidebar:
 st.markdown("""
 <div class="header">
 
-    <h1>🎬 YouTube AI Assistant</h1>
+<h1>🎬 YouTube AI Assistant</h1>
 
-    <p>
-        Your personal AI assistant to understand,
-        explore and learn from any YouTube video.
-    </p>
-
+<p>Your personal AI assistant to understand,
+explore and learn from any YouTube video. </p>
 </div>
 """, unsafe_allow_html=True)
 
@@ -317,30 +314,30 @@ if not st.session_state.video_processed:
     st.markdown("""
     <div class="welcome-card">
 
-        <h2>👋 Welcome to YouTube AI Assistant</h2>
+    <h2>👋 Welcome to YouTube AI Assistant</h2>
 
-        <p>
+    <p>
         Turn any YouTube video into an interactive
         learning experience.
 
         Ask questions, understand complex concepts,
         extract important information and learn faster
         with AI.
-        </p>
+    </p>
 
-        <h3>✨ What can you do?</h3>
+    <h3>✨ What can you do?</h3>
 
-        <p>
+    <p>
         📖 Get video summaries<br>
         ❓ Ask questions about video content<br>
         🧠 Understand difficult topics<br>
         🔍 Find specific information<br>
         📝 Generate notes from videos
-        </p>
+    </p>
 
-        <p>
+    <p>
         👈 Start by adding a YouTube URL in the sidebar.
-        </p>
+    </p>
 
     </div>
     """, unsafe_allow_html=True)
@@ -467,7 +464,7 @@ st.markdown("""
 
     Built with ❤️ using Streamlit
 
-    <br>
+<br>
 
     YouTube RAG Assistant | AI Powered Learning
 
