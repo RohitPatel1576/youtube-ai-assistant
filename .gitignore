@@ -21,4 +21,7 @@ chroma_db/
 
 # System Files
 .DS_Store
+
 Thumbs.db
+# VS Code settings and extensions
+.vscode/
